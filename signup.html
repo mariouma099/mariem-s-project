@@ -1,0 +1,72 @@
+<!doctype="html">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+<title>Anytime Gym - create an account</title>
+<link rel="stylesheet" href="Signup.css">
+
+</head>
+
+<body>
+
+
+	<body background="background1.jpg">
+	<div class="link">
+	<a href="home.html">Home</a>
+	<a href="login.html">connect</a>
+	</div>
+	
+		<br><br><br><br>
+		<h1 class="titre">Anytime-Gym</h1>
+	
+  <center> <img src="signupimg.png" alt="imgnotfound" class="imagedusignup"></center>
+ 
+
+  <fieldset class="fldset">
+    
+    <legend><h2>create an account</h2></legend>
+	   <form action="POST" class="createaccount-form">
+	   
+      <label for="namep">Your Name</label>
+      <input type="text" name="namep" id="namep" required pattern="[a-zA-Z]">
+      <label for="Prenom">Your First Name</label>
+      <input type="text" name="Prenom" id="Prenom" required pattern="[a-zA-Z]"><br><br>
+      <label for="ajmail">Your Email:</label>
+      <input type="email" id="ajmail" name="ajmail" required>
+      <br><br>
+      <label for="ajmdp">Create a Password:</label>
+      <input type="password" id="ajmdp" name="ajmdp" required pattern="[a-zA-Z]">
+      <br><br>
+      <label for="ajmdp2">Re-enter Your Password:</label>
+      <input type="password" id="ajmdp2" name="ajmdp2" required pattern="[a-zA-Z]">
+      <br><br>
+      <label for="datenais">Date of Birth:</label>
+      <input type="date" id="datenais" name="datenais" required >
+  
+  <form class="typesport">
+    <p id="typecombat">Type of Sport:</p>
+	
+	<ol>
+    <li> <label for="Bodycombat">Body Combat</label>
+         <input type="checkbox" id="bodycombat" name="bodycombat"><br></li>
+    <li> <label for="musculation">Musculation</label>
+      <input type="checkbox" id="musculation" name="musculation"><br></li>
+    <li> <label for="zumba">Zumba</label>
+      <input type="checkbox" id="zumba" name="zumba"><br></li>
+    <li><label for="cross">Crossfit</label>
+      <input type="checkbox" id="cross" name="cross"><br></li>
+    <li><label for="box">box</label>
+      <input type="checkbox" id="box" name="box"><br></li>
+    </ol>
+    </form>
+	
+   <input type="submit" name="Signup" value="Sign-up" id="signup">
+   
+   </form>
+   
+  </fieldset>
+  
+  </body>
+
+</html>

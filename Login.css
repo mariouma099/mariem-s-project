@@ -1,0 +1,25 @@
+
+
+
+body {
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+  background-color: silver;
+}
+
+
+h1 {
+	color : #371679;
+}
+.link {
+	font-weight: bold;
+		font-size: 20px;
+		
+}
+
+.loginimg {
+	width: 90px;
+	height: 10%;
+}
+

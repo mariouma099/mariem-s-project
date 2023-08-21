@@ -1,0 +1,67 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	
+}
+p{
+	font-size: large;
+	
+}
+.oa {
+    width: 30%;
+    display: flex;
+    font-weight: bold;
+    font-size: medium;
+	font-weight:bold;
+}
+.fieldset {
+   flex: 1;
+   max-width: 50%;
+
+}
+ 
+.link {
+	text-align:left;
+	font-size: 18px;
+	color: bisque;
+}
+  
+
+h1 { 
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 40px;
+	text-align: center;
+	color: black;
+    border-bottom: 3px solid #333333;      
+    padding-bottom: 8px; 
+}
+h2 { 
+	color: #003300;
+}
+ h3 {
+	text-align: center;
+	color: red;
+ }
+
+
+.tarif {
+    width: 30%;
+    display: flex;
+    font-weight: bold;
+    font-size: medium;
+	font-weight:bold;
+}
+.fieldset {
+   flex: 1;
+   max-width: 50%; }
+
+ 
+
+
+
+
+	
+
+
+
+

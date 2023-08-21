@@ -1,0 +1,32 @@
+
+
+.fldset {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align : center ;
+}
+
+h2 {
+	text-align : center ;
+	color : #A52A2A;
+}
+
+.link {
+	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+h1 { 
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color : #A52A2A;
+}
+
+
+
+.imagedusignup {
+	width: 80px;
+	height: 10%;
+}
