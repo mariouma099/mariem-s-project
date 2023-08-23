@@ -1,4 +1,6 @@
-
+ol{
+	list-style: none;
+}
 
 .fldset {
 	font-family: Verdana, Geneva, sans-serif;

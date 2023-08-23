@@ -1,7 +1,9 @@
 body {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 14px;
-	
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
 }
 p{
 	font-size: large;
@@ -55,7 +57,27 @@ h2 {
    flex: 1;
    max-width: 50%; }
 
- 
+   .grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+	width: 70%;
+	margin: auto;
+  }
+  
+  .col-2 {
+	padding: 20px;
+	border: 1px solid #7c7979; /* Optional: Add a border for visual separation */
+	line-height: 1.75;
+	font-size: large;
+	
+  }
+h4 {
+	text-align: center;
+	color: rgb(2, 17, 57);
+	font-size: large;
+	font-weight:bold;
+}
 
 
 
