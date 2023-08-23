@@ -1,4 +1,4 @@
-<!doctype="html">
+<!doctype html>
 <html>
 
 <head>
@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width">
 <title>Anytime Gym - Log in</title>
 <link rel="stylesheet" href="Login.css">
+<script src="login.js"></script>
 
 </head>
 
-<body>
+
 	<body background="background1.jpg">
 <div>
 	<div class="link">
@@ -23,21 +24,22 @@
    
    
  <h1>Login to your Gym Account</h1>
+ <form id="login-form"  novalidate>
   <label for="user">Username:</label>
-  <input type="text" name="user" placeholder="Enter your username or your email" id="user" required pattern="[a-z A-Z 0-9]" >
+  <input type="text" name="user" placeholder="Enter your username or your email" id="user"  >
   <br>
   <br>
   <label for="mdp">Password:</label>
-  <input type="password" name="mdp" placeholder="Enter your Password" id="mdp" required >
+  <input type="password" name="mdp" placeholder="Enter your Password" id="mdp"  >
   <br><br>
       <label for="rememeber">Remember Password</label>
       <input type="checkbox" checked="checked" name="remember">
     <br><br>
-  <a value="Oublie" href="">Forgot the password ?</a>
+  <a value="Oublie" href="" id="forgot-password">Forgot the password ?</a>
   <br>
   <br>
   <br>
-      <input type="submit" value="login" ><br>
+  <input type="submit" id="login-button" value="Login"><br>
  
   </form>
    
