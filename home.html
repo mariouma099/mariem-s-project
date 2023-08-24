@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=".css">
     <title>Any time gym</title>
+
+    <script src="script.js"></script>
 </head>
 <body>
     <body background="gym1.jpg">
@@ -12,8 +14,10 @@
          <div class="link">
           &nbsp; <a href="home.html">Reception</a> &nbsp;
             <a href="login.html"> Log in</a> &nbsp;
-            <a href="signup.html"> create an account </a> &nbsp;   
+            <a href="signup.html"> create an account </a> &nbsp; 
+            <a href="offers.html"> Subscribe to offer </a> &nbsp;   
              </div><br><br><br>
+             
              <center><h2> Welcome to Any time gym</h2></center>
              <br>
   	
@@ -25,31 +29,7 @@
   <p class="Intro">
     
     <br>
-    <section>
-      <div class="grid">
-        <div class="col-2">
-          <h4>Our activities</h4>
-          <ul> 
-            <li>Cardio</li>
-            <li>Strength</li>
-            <li>Training</li>
-            <li>Dance</li>
-            <li>Box</li>
-          </ul>
-        </div>
-        
-        <div class="col-2">
-          <h4>Our Prices</h4>
-          <ul>
-            <li>Body Combat: 90dt/month</li>
-            <li>Musculation: 70dt/month</li>
-            <li>Zumba: 50dt/month</li>
-            <li>Crossfit: 80dt/month</li>
-            <li>Box: 80dt/month</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    
     <br><br><br> <br>
  
 <center><h2>Course Scheduling:</h2>
@@ -63,7 +43,7 @@
 <CENTER>
  <h3>CALCULATE YOUR BMI </h3>
 <p>Calculate your Body Mass Index (BMI) and discover your ideal weight!</p>
-<form >
+<form  id="bmi-form">
    <div >
 
        <input type="text" name="height" placeholder="height/ cm">
@@ -90,7 +70,7 @@
                   <option value="very_heavy">Very heavy exercise, physical job / training twice a day</option>
        </select>
              <br>
-                 <button type="submit">Calculate</button>	</center>
+             <button type="button" id="calculate-button">Calculate</button>	</center>
                  
    </div>
  </form>
